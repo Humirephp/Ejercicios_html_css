@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(255, 208, 0); /* Color de fondo similar */
+    font-family: 'Arial', sans-serif;
+    color: #000;
+    text-align: left;
+    padding: 20px;
+}
+
+.section-title {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 36px;
+    color: white;
+    text-shadow: 
+        -2px -2px 0 #FF4500, 
+        2px -2px 0 #FF4500, 
+        -2px 2px 0 #FF4500, 
+        2px 2px 0 #FF4500,
+        -2px 0px 0 #FF4500,
+        2px 0px 0 #FF4500,
+        0px 2px 0 #FF4500,
+        0px -2px 0 #FF4500;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+
+.menu {
+    margin-bottom: 20px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.name {
+    font-size: 18px;
+}
+
+.precio {
+    font-size: 18px;
+    font-weight: bold;
+}
